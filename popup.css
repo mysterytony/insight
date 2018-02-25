@@ -1,0 +1,50 @@
+#insight-list {
+    width: 100%;
+}
+
+#insight-list .insight {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    position: relative;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#insight-list .insight .name {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    right: 5px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+#insight-list .insight .description {
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    right: 5px;
+    bottom: 25px;
+    overflow: hidden;
+}
+
+#insight-list .insight .thumbnail {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    height: 90px;
+    width: 90px;
+}
+
+#insight-list .insight .searchUrl {
+    position: absolute;
+    left: 100px;
+    right: 5px;
+    bottom: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    top: 79px;
+}

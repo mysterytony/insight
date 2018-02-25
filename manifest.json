@@ -28,5 +28,14 @@
             ],
             "run_at": "document_idle"
         }
-    ]
+    ],
+    "icons": {
+        "16": "icons8-light-16.png",
+        "30": "icons8-light-30.png",
+        "40": "icons8-light-40.png",
+        "80": "icons8-light-80.png",
+        "160": "icons8-light-160.png",
+        "480": "icons8-light-480.png",
+        "512": "icons8-light-512.png"
+    }
 }
